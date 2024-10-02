@@ -34,6 +34,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 try {
                     int yearPlus = Integer.parseInt(edtYearPlus.getText().toString());
+                    if(yearPlus<1) {
+                        Toast.makeText(getApplicationContext(),"Input Valid",Toast.LENGTH_SHORT).show();
+                        return;
+                    }
                     int a,b;
                     a = yearPlus%10;
                     b = yearPlus%12;
