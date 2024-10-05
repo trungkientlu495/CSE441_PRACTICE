@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity {
         conuntryInfos.add(new ConuntryInfo("Việt Nam","Việt Nam",R.drawable.vietnam));
         conuntryInfos.add(new ConuntryInfo("Trung Quốc","Trung Quốc",R.drawable.china));
         conuntryInfos.add(new ConuntryInfo("Ấn Độ","Ấn Độ",R.drawable.india));
+//        conuntryInfos.add(new ConuntryInfo("Anh","Anh",R.drawable.anh));
+//        conuntryInfos.add(new ConuntryInfo("Nigeria","Nigeria",R.drawable.nigeria));
+//        conuntryInfos.add(new ConuntryInfo("Indonesia","Indonesia",R.drawable.indonesia));
         listView.setAdapter(countryAdater);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

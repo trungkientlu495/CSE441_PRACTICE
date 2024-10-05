@@ -33,6 +33,9 @@ public class DetailCountry extends AppCompatActivity {
         detailCountryList.add(new android.assignment.prac03.Model.DetailCountry("Việt Nam",R.drawable.vietnam,"Hà Nội"));
         detailCountryList.add(new android.assignment.prac03.Model.DetailCountry("Trung Quốc",R.drawable.china,"Bắc Kinh"));
         detailCountryList.add(new android.assignment.prac03.Model.DetailCountry("Ấn độ",R.drawable.india,"New Delhi"));
+//        detailCountryList.add(new android.assignment.prac03.Model.DetailCountry("Anh",R.drawable.anh,"LonDon"));
+//        detailCountryList.add(new android.assignment.prac03.Model.DetailCountry("Nigeria",R.drawable.nigeria,"Abuja"));
+//        detailCountryList.add(new android.assignment.prac03.Model.DetailCountry("Indonesia",R.drawable.indonesia,"New Delhi"));
         TextView edtNational,edtCapital,edtTitle;
         ImageView image;
         edtNational = findViewById(R.id.edtNational);
