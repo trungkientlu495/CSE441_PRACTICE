@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">TH03</string>
+    <string-array name="spinner_address">
+        <item>Thanh Hóa</item>
+        <item>Kiên Đẹp Zai</item>
+        <item>Kiên Gió Tai</item>
+        <item>Hà Nội</item>
+    </string-array>
+    <string-array name="spinner_major">
+        <item>CNTT</item>
+        <item>HTTT</item>
+        <item>TTNN</item>
+        <item>KTPM</item>
+    </string-array>
+    <string-array name="spinner_year">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
 </resources>

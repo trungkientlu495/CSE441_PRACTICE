@@ -21,3 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "TH03"
 include ':app'
+include ':app'
